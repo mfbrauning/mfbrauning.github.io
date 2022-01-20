@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Mono', monospace;
+
+}
+
+
+
+
+
+
+.footer {
+  margin-top: auto;
+  bottom: 0;
+  width: 100%;
+  height: 4.5rem;  
+  display: flex;
+  justify-content: center;
+}
+
+.footer > a {
+  margin: 20px;
+  text-decoration: none;
+  color: gray
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.home, .contact {
+  min-height: 80vh;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.home-left {
+  display: flex;
+  justify-content: left;
+  padding-top: 5.5rem;
+  padding-left: 5.5rem;
+  font-size: 2.5rem;
+}
+
+.home-right {
+  display: flex;
+  justify-content: right;
+  padding: 5.5rem;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0px;
+}
+
+
+
+.header > a {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px 50px;
+}
+
+.project-main > h1 {
+  color: #e84855;
+  text-align: left;
+}
+
+.project-main{
+  width: 30%;
+  justify-items: left;
+  margin: 25px;
+  text-align: justify;
+}
+
+.project-details {
+  width: 30%;
+  margin: 25px;
+  text-align:justify;
+  font-weight: 300;
+}
+
+a {
+  color: #3185fc;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-main {
+    width: 95%;
+  }
+
+  .project-details {
+    width: 95%;
+  }
+  .home, .contact {
+    min-height: 70vh;
+    padding: 10px;
+  }
+
+  .footer {
+    margin-top: auto;
+    width: 100%;
+    height: 2.5rem;  
+    display: flex;
+    justify-content: center;
+  }
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .home-left {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .home-right {
+    padding: 1rem;
+  }
+}
