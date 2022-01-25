@@ -85,25 +85,26 @@ body {
 .project {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 20px;
   padding: 10px 50px;
 }
 
 .project-main > h1 {
-  color: #e84855;
+  color: #000000;
   text-align: left;
 }
 
 .project-main{
   width: 30%;
   justify-items: left;
-  margin: 25px;
+  margin: 30px;
   text-align: justify;
 }
 
 .project-details {
   width: 30%;
-  margin: 25px;
+  margin: 30px;
+  padding: 20px;
   text-align:justify;
   font-weight: 300;
 }

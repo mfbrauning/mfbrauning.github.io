@@ -5,7 +5,7 @@ function Contact(props){
         </p>
         <br/>
         <p>
-        View my <a href="https://drive.google.com/file/d/1OauTqjYCzrhTMxlveeE8CcRBxxCXQ-Qc/view?usp=sharing" target="_blank">resume</a>.
+        View my <a href="https://drive.google.com/file/d/11FaM0dJcAcxsEsqs6WoW3igTbkDig1x_/view?usp=sharing" target="_blank">resume</a>.
         </p>
     </div>
 }
