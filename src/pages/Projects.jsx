@@ -8,7 +8,7 @@ function Projects(props){
                 <h3>A Fullstack web app for cataloging artworks and artist information for students and creatives</h3>
                 <a href="https://capstone-frontend-gray.vercel.app/" target="_blank">Live Link</a>
                 <br/>
-                <a href="https://github.com/mfbrauning/capstone_frontend" target="_blank">GitHub</a>
+                <a href="https://github.com/mfbrauning/capstone_backend" target="_blank">GitHub</a>
             </div>
             <div className="project-details">
                 <p>Technologies used:
